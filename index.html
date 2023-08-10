@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Akshay Jegaonkar portfolio website</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Akshay portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="http://">Home</a></li>
+            <li><a href="http://">About</a></li>
+            <li><a href="http://">Services</a></li>
+            <li><a href="http://">Projects</a></li>
+            <li><a href="http://">Contect</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hello, My name is <Span class="nameColor">Akshay</Span>
+          <span>and I am a passionate</span> <br>
+          <span id="element">web devoloper</div>
+          </span>
+        <div class="rightSection">
+          <img src="img/programmers.png" alt="">
+        </div>
+      </section>
+      <div class="horizontalLine"></div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web Developer', 'Web Designer', 'Marketer...'],
+        typeSpeed: 50,
+      });
+    </script> 
+  </body>
+</html>
